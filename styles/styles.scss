@@ -7,10 +7,17 @@ $primaryText : 'Lato', sans-serif;
 body {
     font-family: $primaryText;
     background-color: #f1f1f1;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 nav {
     background-color: transparent;
+    margin: 8px;
+    a {
+        position: relative;
+        left: 10px;
+    }
 }
 
 h1,h2 {
@@ -23,6 +30,7 @@ h3 ,p {
 
 .headline {
     padding: 2px 5px;
+    margin: 8px;
 }
 
 #hl-bg-1 {
@@ -85,4 +93,50 @@ h3 ,p {
 #place {
     font-size: 25px;
     margin-top: 0;
+}
+
+// main-program styling
+
+.main-program {
+    background: url(/images/common/hitmar-resized.png);
+    background-color: currentcolor;
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    h1{
+        color: #f1f1f1;
+        font-weight: 100;
+        display: flex;
+        justify-content: center;
+    }
+    hr {
+        width: 20%;
+        background-color: $secondaryClr;
+        border-style: solid;
+        padding: 1px;
+    }
+    button {
+        background-color: $secondaryClr;
+        margin: 25px;
+        padding: 15px;
+        font-size: x-large;
+        color: $bodyClr;
+        font-family: $primaryText;
+        border-style: none;
+    }
+}
+
+.program {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: #f0f8ff4a;
+    margin: 8px;
+    padding: 8px;
+    h3 {
+        color: $secondaryClr;
+    }
+    p {
+        color: $thirdClr;
+    }
 }
