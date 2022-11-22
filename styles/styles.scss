@@ -55,8 +55,8 @@ p {
 
 #hl-bg-3 {
     position: absolute;
-    right: 6px;
-    top: 315px;
+    right: 12px;
+    top: 285px;
 }
 
 #intor1 {
@@ -66,8 +66,9 @@ p {
 
 #intro2 {
     font-weight: 900;
-    font-size: 47px;
+    font-size: 40px;
     margin-top: 5px;
+    letter-spacing: 0.05rem;
 }
 
 .intro-txt {
@@ -144,10 +145,15 @@ p {
 
     h3 {
         color: $secondaryClr;
+        width: 25%;
     }
 
     p {
         color: $thirdClr;
+        width: 60%;
+    }
+    img {
+        width: 10%;
     }
 }
 

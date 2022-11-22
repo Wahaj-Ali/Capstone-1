@@ -14,6 +14,7 @@ body {
 
 nav {
     margin: 8px;
+
     a {
         position: relative;
         left: 10px;
@@ -31,14 +32,64 @@ h2 {
     justify-content: center;
     align-items: center;
     padding: 8px;
+    margin: 30px;
+
     #intro2 {
         display: flex;
-        width: 291px;
         margin-top: 5px;
-        font-size: 35px;
+        font-size: 40px;
+        letter-spacing: 0.08rem;
+        justify-content: center;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: center;
     }
+
     #intro1 {
         margin-bottom: 5px;
         font-weight: 500;
     }
+
+    #o-stripes {
+        position: absolute;
+        top: 64px;
+        left: 90px;
+        border-radius: 15px;
+    }
+
+    #stripes {
+        position: absolute;
+        top: 109px;
+        right: 65px;
+        width: 30px;
+        border-radius: 20px;
+        transform: rotate(331deg);
+        background-color: $primaryClr;
+    }
+
+    #circle {
+        position: relative;
+        right: 92px;
+        bottom: 32px;
+    }
+
+    .about-intro {
+        backdrop-filter: opacity(0.5);
+        border: 1px dotted $primaryClr;
+        background-color: $bodyClr;
+        display: flex;
+        position: relative;
+        bottom: 110px;
+
+        p {
+            width: 300px;
+            margin: 20px;
+            display: flex;
+            text-align: center;
+            font-family: $primaryText;
+            opacity: 0.8;
+        }
+    }
+
 }
