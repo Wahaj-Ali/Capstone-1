@@ -20,6 +20,17 @@ nav {
         position: relative;
         left: 10px;
     }
+
+    .main-menu {
+        position: absolute;
+        left: -100%;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    #nav-logo {
+        display: none;
+    }
 }
 
 h1,
@@ -110,6 +121,10 @@ p {
     flex-direction: column;
     margin-top: 25px;
 
+    a {
+        display: none;
+    }
+
     h1 {
         color: #f1f1f1;
         font-weight: 100;
@@ -152,6 +167,7 @@ p {
         color: $thirdClr;
         width: 60%;
     }
+
     img {
         width: 10%;
     }
@@ -230,4 +246,223 @@ p {
         width: 15px;
         height: 15px;
     }
+}
+
+.partner {
+    display: none;
+}
+
+footer {
+    display: none;
+}
+
+// desktop version
+
+@media only screen and (min-width: 769px) {
+    #hamburger {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        background-color: #fff;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+
+        #nav-logo {
+            display: flex !important;
+            width: 45px;
+            height: 45px;
+            position: relative;
+            left: -139px;
+        }
+    }
+
+    .main-menu {
+        display: flex !important;
+        flex-direction: row !important;
+        position: relative !important;
+        gap: 85px;
+        left: 180px !important;
+
+        a {
+            text-decoration: none;
+            color: $primaryClr;
+
+            &:hover {
+                color: $secondaryClr;
+            }
+        }
+    }
+
+    .headline {
+        #intro2 {
+            width: 425px;
+        }
+
+        .intro-txt {
+            padding: 30px;
+            margin: 1px 150px;
+        }
+
+        .intro-div {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            left: 10%;
+            margin: 100px 1px;
+            margin-bottom: 1px;
+        }
+
+        #hl-bg-1 {
+            top: 155px;
+            left: 49px;
+        }
+
+        #hl-bg-2 {
+            left: 800px;
+            top: 269px;
+        }
+
+        #hl-bg-3 {
+            right: 115px;
+            top: 50%;
+        }
+
+        .location {
+            position: relative;
+            left: 10%;
+
+            img {
+                bottom: 63px;
+                left: -40px;
+            }
+
+            #date {
+                font-size: 30px;
+            }
+        }
+    }
+
+    .main-program {
+        padding-bottom: 40px;
+
+        .program-s {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            justify-content: center;
+            margin: 30px;
+        }
+
+        .program {
+            flex-direction: column;
+            margin: 4px;
+
+            h3 {
+                width: auto;
+                margin: 1px;
+            }
+
+            p {
+                margin: 1px;
+                width: 200px;
+            }
+
+            img {
+                width: 40px;
+            }
+
+            &:hover{
+                border: 2px solid #fff;
+            }
+        }
+
+
+        button {
+            display: none !important;
+        }
+
+        a {
+            display: flex;
+            color: #fff;
+            margin: 25px;
+            width: 207px;
+            position: relative;
+            align-self: center;
+        }
+    }
+
+    .speakers {
+        hr {
+            width: 50px;
+        }
+
+        .speaker-s {
+            display: grid;
+            grid-template-columns: auto auto;
+            margin: 65px;
+
+            .speaker {
+                margin: 50px;
+
+            }
+        }
+
+        button {
+            display: none;
+        }
+
+    }
+
+    .partner {
+        display: flex;
+        flex-direction: column;
+        background-color: $primaryClr;
+    
+        h2 {
+            text-align: center;
+            color: $bodyClr;
+            font-weight: 500;
+            opacity: 0.3;
+            font-size: 30px;
+            margin-bottom: 1px;
+        }
+    
+        hr {
+            border-style: none;
+            padding: 1px;
+            width: 30px;
+            background-color: $secondaryClr;
+            position: relative;
+            opacity: 0.7;
+        }
+    
+        .partner-logo {
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            gap: 100px;
+            grid-template-columns: auto auto auto auto auto;
+            padding: 10px;
+    
+            img {
+                width: 80px;
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        margin: 8px;
+        background-color: $bodyClr;
+    
+        img {
+            width: 100px;
+        }
+    }
+
 }
