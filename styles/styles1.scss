@@ -19,6 +19,17 @@ nav {
         position: relative;
         left: 10px;
     }
+
+    .main-menu {
+        position: absolute;
+        left: -100%;
+        flex-direction: column;
+        list-style: none;
+    }
+
+    #nav-logo {
+        display: none;
+    }
 }
 
 h1,
@@ -34,7 +45,7 @@ h2 {
     padding: 8px;
     margin: 30px;
     height: 600px;
-    margin-bottom: -28px;
+    // margin-bottom: -28px;
 
     #intro2 {
         display: flex;
@@ -103,6 +114,19 @@ h2 {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid #272a3138;
+    background-color: #fff;
+
+    p {
+        color: $primaryClr;
+        text-align: center;
+        opacity: 0.6;
+    }
+
+    h2 {
+        color: $primaryClr;
+        text-align: center;
+        font-weight: 500;
+    }
 
     #logo-div {
         display: flex;
@@ -222,10 +246,138 @@ footer {
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin: 8px;
+    // margin: 8px;
     background-color: #fff;
 
     img {
         width: 100px;
+    }
+}
+
+// desktop version
+
+@media only screen and (min-width: 769px) {
+    #hamburger {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        background-color: #fff;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+
+        #nav-logo {
+            display: flex !important;
+            width: 45px;
+            height: 45px;
+            position: relative;
+            left: -139px;
+        }
+    }
+
+    .main-menu {
+        display: flex !important;
+        flex-direction: row !important;
+        position: relative !important;
+        gap: 85px;
+        left: 180px !important;
+
+        #about-link {
+            color: $secondaryClr;
+        }
+
+        a {
+            text-decoration: none;
+            color: $primaryClr;
+
+            &:hover {
+                color: $secondaryClr;
+            }
+        }
+    }
+
+    .headline {
+
+        #intro2 {
+            width: 432px;
+        }
+
+        #intro1 {
+            display: none;
+        }
+
+        .about-intro {
+            width: 1000px;
+
+            p {
+                width: auto;
+            }
+        }
+
+        #circle {
+            right: 500px;
+            top: 20px;
+        } 
+
+        #o-stripes {
+            right: 360px;
+            top: 50px;
+        }
+    }
+    .event {
+       h2 {
+        margin-bottom: 1px;
+       }
+       
+        hr {
+            width: 30px;
+        }
+    }
+
+    .past-events {
+       h3 {
+        margin-bottom: 5px;
+       }
+       
+        hr {
+            width: 30px;
+        }
+
+        .past-img-s {
+            display: grid;
+            grid-template-columns: auto auto;
+            margin: 50px;
+            justify-content: center;
+
+            #past-img1 {
+                width: 400px;
+
+                h2 {
+                    margin-bottom: 1px;
+                }
+            }
+
+            #past-img2 {
+                width: 400px;
+
+                h2 {
+                    margin-bottom: 1px;
+                }
+            }
+        }
+    }
+
+    .partner {
+        display: none;
+    }
+
+    footer {
+        background-color: $primaryClr;
+
+        p {
+            color: $thirdClr;
+        }
     }
 }
