@@ -24,6 +24,11 @@
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/wahaj-ali-82b9b1164)
 
 
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+[Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) for the Amazing Design Template.
+
+
 
 ## 🤝 Contributing
 
