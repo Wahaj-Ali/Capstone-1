@@ -192,7 +192,7 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(rgba(172, 31, 43, 0.49), rgba(175, 34, 34, 0.64)), url(/images/common/event1.jpeg);
+  background-image: linear-gradient(rgba(172, 31, 43, 0.49), rgba(175, 34, 34, 0.64)), url(images/common/event1.jpeg);
   background-size: cover;
   height: 300px;
   margin: 20px;
@@ -207,7 +207,7 @@ h2 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: linear-gradient(rgba(206, 17, 33, 0.75), rgba(175, 34, 34, 0.64)), url(/images/common/event2.jpeg);
+  background-image: linear-gradient(rgba(206, 17, 33, 0.75), rgba(175, 34, 34, 0.64)), url(images/common/event2.jpeg);
   background-size: cover;
   height: 300px;
   margin: 20px;
