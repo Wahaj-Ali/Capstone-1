@@ -163,8 +163,6 @@ p {
   margin-top: 25px;
 }
 
-
-
 .main-program h1 {
   color: #f1f1f1;
   font-weight: 100;
@@ -287,8 +285,6 @@ p {
   margin: 8px;
   padding: 12px;
 }
-
-
 
 .partner {
   display: none;
@@ -435,8 +431,6 @@ footer {
     display: none !important;
   }
 
-
-
   .speakers hr {
     width: 50px;
   }
@@ -499,8 +493,6 @@ footer {
     margin: 8px;
     background-color: #f1f1f1;
   }
-
-
 }
 
 @media only screen and (max-width: 769px) {
@@ -508,5 +500,5 @@ footer {
     display: none;
   }
 }
-
 /*# sourceMappingURL=styles.css.map */
+
