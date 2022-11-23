@@ -8,6 +8,23 @@ body {
 nav {
   margin: 8px;
 }
+nav .ham {
+  height: 40px;
+  width: 40px;
+  background-image: url(/images/mobile/hamburger-icon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin: 3px;
+  margin-bottom: 100px;
+}
+nav .cross {
+  background-image: url(/images/mobile/cross.png) !important;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-size: 20px;
+}
 nav a {
   position: relative;
   left: 10px;
@@ -17,6 +34,28 @@ nav .main-menu {
   left: -100%;
   flex-direction: column;
   list-style: none;
+}
+nav .show {
+  left: 0%;
+  background-color: #f1f1f1;
+  position: relative;
+  bottom: 85px;
+  list-style: none;
+  height: 100vh;
+  width: 100%;
+  -webkit-backdrop-filter: contrast(0);
+          backdrop-filter: contrast(0);
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+nav .show a {
+  text-decoration: none;
+  color: #272a31;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
 }
 nav #nav-logo {
   display: none;
@@ -219,7 +258,7 @@ footer img {
 }
 
 @media only screen and (min-width: 769px) {
-  #hamburger {
+  .ham {
     display: none;
   }
   nav {
@@ -242,6 +281,9 @@ footer img {
     position: relative !important;
     gap: 85px;
     left: 180px !important;
+  }
+  .main-menu #home-link {
+    display: none;
   }
   .main-menu #about-link {
     color: #ec5242;
