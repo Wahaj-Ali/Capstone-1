@@ -12,7 +12,7 @@ nav {
 nav .ham {
   height: 40px;
   width: 40px;
-  background-image: url(../hamburger-icon.svg);
+  background-image: url(/styles/images/mobile/hamburger-icon.svg);
   background-repeat: no-repeat;
   background-position: center;
   -o-object-fit: cover;
@@ -20,7 +20,7 @@ nav .ham {
   margin: 3px;
 }
 nav .cross {
-  background-image: url(../cross.png) !important;
+  background-image: url(/styles/images/mobile/cross.png) !important;
   -o-object-fit: contain;
      object-fit: contain;
   background-size: 20px;
