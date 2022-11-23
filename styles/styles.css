@@ -331,14 +331,14 @@ footer {
     align-self: center;
   }
 
-  .nav-start li a {
-    text-decoration: none;
-    color: #f1f1f1;
-  }
-
   .main-menu a {
     text-decoration: none;
     color: #272a31;
+  }
+
+  .nav-start li a {
+    text-decoration: none;
+    color: #f1f1f1;
   }
 
   .main-menu a:hover {

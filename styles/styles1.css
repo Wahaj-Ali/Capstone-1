@@ -330,6 +330,10 @@ footer {
     color: #f1f1f1;
   }
 
+  .main-menu a:hover {
+    color: #ec5242;
+  }
+
   .nav-start li a:hover {
     color: #ec5242;
   }
@@ -363,10 +367,6 @@ footer {
   }
 
   .main-menu #about-link {
-    color: #ec5242;
-  }
-
-  .main-menu a:hover {
     color: #ec5242;
   }
 
