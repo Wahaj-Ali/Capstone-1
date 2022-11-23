@@ -140,6 +140,12 @@ h2 {
   bottom: 110px;
 }
 
+.event p {
+  color: #272a31;
+  text-align: center;
+  opacity: 0.6;
+}
+
 .headline .about-intro p {
   width: 300px;
   margin: 20px;
@@ -158,12 +164,6 @@ h2 {
   flex-direction: column;
   border-bottom: 1px solid rgba(39, 42, 49, 0.2196078431);
   background-color: #fff;
-}
-
-.event p {
-  color: #272a31;
-  text-align: center;
-  opacity: 0.6;
 }
 
 .event h2 {
@@ -229,6 +229,12 @@ h2 {
   margin: 20px;
 }
 
+.partner h2 {
+  text-align: center;
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
 .past-events #past-img1 p,
 .past-events #past-img1 h2 {
   color: #f1f1f1;
@@ -257,12 +263,6 @@ h2 {
   background-color: #272a31;
 }
 
-.partner h2 {
-  text-align: center;
-  color: #f1f1f1;
-  font-weight: 500;
-}
-
 .partner hr {
   border-style: none;
   padding: 1px;
@@ -281,6 +281,10 @@ h2 {
   padding: 10px;
 }
 
+footer img {
+  width: 100px;
+}
+
 .partner .partner-logo img {
   width: 80px;
 }
@@ -290,10 +294,6 @@ footer {
   gap: 20px;
   justify-content: center;
   background-color: #fff;
-}
-
-footer img {
-  width: 100px;
 }
 
 @media only screen and (min-width: 769px) {
@@ -318,6 +318,11 @@ footer img {
 
   .nav-start li {
     list-style: none;
+  }
+
+  .main-menu a {
+    text-decoration: none;
+    color: #272a31;
   }
 
   .nav-start li a {
@@ -361,11 +366,6 @@ footer img {
     color: #ec5242;
   }
 
-  .main-menu a {
-    text-decoration: none;
-    color: #272a31;
-  }
-
   .main-menu a:hover {
     color: #ec5242;
   }
@@ -380,6 +380,10 @@ footer img {
 
   .headline .about-intro {
     width: 1000px;
+  }
+
+  footer p {
+    color: #d3d3d3;
   }
 
   .headline .about-intro p {
@@ -460,9 +464,5 @@ footer img {
 
   footer {
     background-color: #272a31;
-  }
-
-  footer p {
-    color: #d3d3d3;
   }
 }

@@ -63,6 +63,10 @@ nav .show {
   gap: 20px;
 }
 
+.main-program a {
+  display: none;
+}
+
 nav .show a {
   text-decoration: none;
   color: #272a31;
@@ -163,10 +167,6 @@ p {
   margin-top: 25px;
 }
 
-.main-program a {
-  display: none;
-}
-
 .main-program h2 {
   color: #f1f1f1;
   font-weight: 100;
@@ -242,6 +242,11 @@ p {
   margin: 8px;
 }
 
+.speakers img {
+  width: 15px;
+  height: 15px;
+}
+
 .speakers .speaker img {
   width: 110px;
   height: 121px;
@@ -285,11 +290,6 @@ p {
   padding: 12px;
 }
 
-.speakers img {
-  width: 15px;
-  height: 15px;
-}
-
 .partner {
   display: none;
 }
@@ -322,9 +322,27 @@ footer {
     list-style: none;
   }
 
+  .main-program a {
+    display: flex;
+    color: #fff;
+    margin: 25px;
+    width: 207px;
+    position: relative;
+    align-self: center;
+  }
+
   .nav-start li a {
     text-decoration: none;
     color: #f1f1f1;
+  }
+
+  .main-menu a {
+    text-decoration: none;
+    color: #272a31;
+  }
+
+  .main-menu a:hover {
+    color: #ec5242;
   }
 
   .nav-start li a:hover {
@@ -353,15 +371,6 @@ footer {
     position: relative !important;
     gap: 85px;
     left: 180px !important;
-  }
-
-  .main-menu a {
-    text-decoration: none;
-    color: #272a31;
-  }
-
-  .main-menu a:hover {
-    color: #ec5242;
   }
 
   .headline #intro2 {
@@ -400,6 +409,10 @@ footer {
   .headline .location {
     position: relative;
     left: 10%;
+  }
+
+  footer img {
+    width: 100px;
   }
 
   .headline .location img {
@@ -448,15 +461,6 @@ footer {
 
   .main-program button {
     display: none !important;
-  }
-
-  .main-program a {
-    display: flex;
-    color: #fff;
-    margin: 25px;
-    width: 207px;
-    position: relative;
-    align-self: center;
   }
 
   .speakers hr {
@@ -520,10 +524,6 @@ footer {
     justify-content: center;
     margin: 8px;
     background-color: #f1f1f1;
-  }
-
-  footer img {
-    width: 100px;
   }
 }
 
