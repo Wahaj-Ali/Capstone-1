@@ -2,13 +2,18 @@ $primaryClr : #272a31;
 $secondaryClr: #ec5242;
 $thirdClr: #d3d3d3;
 $bodyClr: #f1f1f1;
-$primaryText : 'Lato', sans-serif;
+$primaryText : 'Lato',
+sans-serif;
 
 body {
   font-family: $primaryText;
   background-color: #f1f1f1;
   margin: 0;
   box-sizing: border-box;
+}
+
+.nav-start {
+  display: none;
 }
 
 nav {
@@ -166,7 +171,7 @@ p {
     display: none;
   }
 
-  h1 {
+  h2 {
     color: #f1f1f1;
     font-weight: 100;
     display: flex;
@@ -304,7 +309,35 @@ footer {
     display: none !important;
   }
 
-  nav {
+  .nav-start {
+    display: flex !important;
+    position: relative;
+    background-color: $primaryClr;
+    margin: 0 !important;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      gap: 30px;
+      position: relative;
+      left: 330px;
+    }
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: $bodyClr;
+
+        &:hover{
+          color: $secondaryClr;
+        }
+      }
+    }
+  }
+
+  .navbar {
     display: flex;
     background-color: #fff;
     margin: 0;

@@ -12,6 +12,10 @@ body {
   box-sizing: border-box;
 }
 
+.nav-start {
+  display: none;
+}
+
 nav {
   margin: 8px;
 
@@ -148,6 +152,9 @@ h2 {
     }
   }
 
+  .headline-contact{
+    display: none;
+  }
 }
 
 .event {
@@ -301,7 +308,35 @@ footer {
     display: none;
   }
 
-  nav {
+  .nav-start {
+    display: flex !important;
+    position: relative;
+    background-color: $primaryClr;
+    margin: 0 !important;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      gap: 30px;
+      position: relative;
+      left: 380px;
+    }
+
+    li {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: $bodyClr;
+
+        &:hover{
+          color: $secondaryClr;
+        }
+      }
+    }
+  }
+
+  .navbar {
     display: flex;
     background-color: #fff;
     margin: 0;
@@ -368,6 +403,25 @@ footer {
     #o-stripes {
       right: 360px;
       top: 50px;
+    }
+
+    .headline-contact {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      bottom: 50px;
+  
+      p{
+        opacity: 0.7;
+        margin: 5px;
+      }
+  
+      #email {
+        opacity: 1;
+        font-weight: 900;
+        text-decoration: underline;
+      }
     }
   }
 
