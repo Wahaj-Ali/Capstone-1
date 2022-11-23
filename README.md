@@ -57,10 +57,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Capstone-1] <a name="about-project"></a>
+# 📖 Capstone-1 <a name="about-project"></a>
 
 
-**[Capstone-1]** is a a website for an event happening in my locality. It consists of two working pages i.e., "Home page" and "About Page". The website is responsive for computer and mobile devices. It also consists of a speakers section that is made dynamically using Javascript.
+**Capstone-1** is a a website for an event happening in my locality. It consists of two working pages i.e., "Home page" and "About Page". The website is responsive for computer and mobile devices. It also consists of a speakers section that is made dynamically using Javascript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,8 +81,8 @@ After you're finished please remove all the comments and instructions!
 
 
 
-- **[Responsive]**
-- **[Dynamic Speakers Section]**
+- **Responsive**
+- **Dynamic Speakers Section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
