@@ -331,6 +331,10 @@ footer {
     align-self: center;
   }
 
+  .main-program hr {
+    width: 30px;
+  }
+
   .main-menu a {
     text-decoration: none;
     color: #272a31;
