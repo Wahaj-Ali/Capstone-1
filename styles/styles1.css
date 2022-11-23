@@ -152,11 +152,7 @@ h2 {
   background-color: #fff;
 }
 
-.event p {
-  color: #272a31;
-  text-align: center;
-  opacity: 0.6;
-}
+
 
 .event h2 {
   color: #272a31;
@@ -209,6 +205,12 @@ h2 {
   opacity: 0.8;
 }
 
+.partner h2 {
+  text-align: center;
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
 .past-events #past-img1 {
   display: flex;
   flex-direction: column;
@@ -249,11 +251,7 @@ h2 {
   background-color: #272a31;
 }
 
-.partner h2 {
-  text-align: center;
-  color: #f1f1f1;
-  font-weight: 500;
-}
+
 
 .partner hr {
   border-style: none;
@@ -273,6 +271,10 @@ h2 {
   padding: 10px;
 }
 
+footer img {
+  width: 100px;
+}
+
 .partner .partner-logo img {
   width: 80px;
 }
@@ -284,9 +286,7 @@ footer {
   background-color: #fff;
 }
 
-footer img {
-  width: 100px;
-}
+
 
 @media only screen and (min-width: 769px) {
   .ham {
@@ -344,6 +344,12 @@ footer img {
 
   .headline .about-intro {
     width: 1000px;
+  }
+
+  .event p {
+    color: #272a31;
+    text-align: center;
+    opacity: 0.6;
   }
 
   .headline .about-intro p {
@@ -410,6 +416,7 @@ footer img {
   footer p {
     color: #d3d3d3;
   }
+
 }
 
 /*# sourceMappingURL=styles1.css.map */
