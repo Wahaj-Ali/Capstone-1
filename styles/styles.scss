@@ -2,8 +2,7 @@ $primaryClr : #272a31;
 $secondaryClr: #ec5242;
 $thirdClr: #d3d3d3;
 $bodyClr: #f1f1f1;
-$primaryText : 'Lato',
-sans-serif;
+$primaryText : 'Lato', sans-serif;
 
 body {
   font-family: $primaryText;
@@ -158,7 +157,7 @@ p {
 
 .main-program {
   background: url(images/common/hitmar-resized.png);
-  background-color: currentcolor;
+  background-color: currentColor;
   display: flex;
   flex-direction: column;
   margin-top: 25px;
