@@ -52,7 +52,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 Capstone-1 <a name="about-project"></a>
 
 
-**Capstone-1** is a a website for an event happening in my locality. It consists of two working pages i.e., "Home page" and "About Page". The website is responsive for computer and mobile devices. It also consists of a speakers section that is made dynamically using Javascript.
+**Capstone-1** is a website for an event happening in my locality. It consists of two working pages i.e., "Home page" and "About Page". The website is responsive for computer and mobile devices. It also consists of a speakers section that is made dynamically using Javascript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
