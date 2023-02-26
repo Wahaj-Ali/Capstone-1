@@ -3,7 +3,7 @@ $secondaryClr: #ec5242;
 $thirdClr: #d3d3d3;
 $bodyClr: #f1f1f1;
 $primaryText : 'Lato',
-sans-serif;
+  sans-serif;
 
 body {
   font-family: $primaryText;
@@ -152,7 +152,7 @@ h2 {
     }
   }
 
-  .headline-contact{
+  .headline-contact {
     display: none;
   }
 }
@@ -329,7 +329,7 @@ footer {
         text-decoration: none;
         color: $bodyClr;
 
-        &:hover{
+        &:hover {
           color: $secondaryClr;
         }
       }
@@ -378,7 +378,6 @@ footer {
   }
 
   .headline {
-
     #intro2 {
       width: 432px;
     }
@@ -411,12 +410,12 @@ footer {
       align-items: center;
       position: relative;
       bottom: 50px;
-  
-      p{
+
+      p {
         opacity: 0.7;
         margin: 5px;
       }
-  
+
       #email {
         opacity: 1;
         font-weight: 900;

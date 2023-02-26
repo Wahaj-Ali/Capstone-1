@@ -3,7 +3,7 @@ $secondaryClr: #ec5242;
 $thirdClr: #d3d3d3;
 $bodyClr: #f1f1f1;
 $primaryText : 'Lato',
-sans-serif;
+  sans-serif;
 
 body {
   font-family: $primaryText;
@@ -330,7 +330,7 @@ footer {
         text-decoration: none;
         color: $bodyClr;
 
-        &:hover{
+        &:hover {
           color: $secondaryClr;
         }
       }
@@ -453,7 +453,6 @@ footer {
       }
     }
 
-
     button {
       display: none !important;
     }
@@ -480,14 +479,12 @@ footer {
 
       .speaker {
         margin: 50px;
-
       }
     }
 
     button {
       display: none;
     }
-
   }
 
   .partner {
@@ -538,7 +535,6 @@ footer {
       width: 100px;
     }
   }
-
 }
 
 @media only screen and (max-width: 769px) {
