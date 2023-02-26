@@ -3,6 +3,9 @@ body {
   background-color: #f1f1f1;
   margin: 0;
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .nav-start {
@@ -126,6 +129,11 @@ p {
   font-size: 40px;
   margin-top: 5px;
   letter-spacing: 0.05rem;
+  background-image: url(/images/img1.jpg);
+  background-position: 150% 20%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .intro-txt {
@@ -379,6 +387,7 @@ footer {
 
   .headline #intro2 {
     width: 425px;
+    transition: background-position 10s;
   }
 
   .headline .intro-txt {
