@@ -74,3 +74,18 @@ function displaySpeakers() {
 }
 
 displaySpeakers();
+
+const loadMoreBtn = document.querySelector('#show-more');
+let currentItem = 3;
+
+loadMoreBtn.onclick = () => {
+  const boxes = [...document.querySelectorAll('.speaker-s .speaker')];
+  for (let i = currentItem; i < currentItem + 3; i += 1) {
+    boxes[i].style.display = 'flex';
+  }
+  currentItem += 3;
+
+  if (currentItem >= boxes.length) {
+    loadMoreBtn.style.display = 'none';
+  }
+};
