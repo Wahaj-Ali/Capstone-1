@@ -56,7 +56,7 @@ const speakers = [{
 },
 ];
 
-function displaySpeakers() {
+ displaySpeakers = () => {
   let result = '';
   speakers.filter((speaker) => speaker.id > 0).forEach((speaker) => {
     result += `<div class="speaker ${speaker.uniqueClass}">
