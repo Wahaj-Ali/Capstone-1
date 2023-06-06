@@ -1,36 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>README</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -51,6 +20,7 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Capstone-1 <a name="about-project"></a>
 
+![smartmockups_likhmool](https://github.com/Wahaj-Ali/Capstone-1/assets/111431787/de8fd210-3763-4d9c-9ff5-46079c12822a)
 
 **Capstone-1** is a website for an event happening in my locality. It consists of two working pages i.e., "Home page" and "About Page". The website is responsive for computer and mobile devices. It also consists of a speakers section that is made dynamically using Javascript.
 
